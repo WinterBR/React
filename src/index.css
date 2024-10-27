@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 140px;
+  gap: 5px;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+#Tabela {
+  display: flex;
+  justify-content: center;
+  color: rgb(26, 22, 72);
+}
+
+.Tabela_Num {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.Tabela_Num h3 {
+  font-weight: 500;
+}
+
+.Tabela_Classificacoes {
+  border: 2px solid black;
+  border-left: 0px;
+  padding: 10px;
+}
+
+.Tabela_Classificacoes h3 {
+  font-weight: 500;
+}
+
+.hr1 {
+  background-color: black;
+  height: 3px;
+  width: 100%;
+}
+
+hr {
+  width: 160px;
+}
+
+#Formula {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#Formula strong {
+  border-bottom: 2px solid black;
+}
+
+#h3alt {
+  padding-left: 5%;
+}
+
+#Formulario {
+  display: flex;
+  justify-content: center;
+}
+
+.laput {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 40px;
+  padding-bottom: 10px;
+}
+
+#IMC_final {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
